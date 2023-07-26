@@ -11,15 +11,19 @@
 //    document.write("Golden A+");
 // }
 
+//  const myName ={
+//    name:"Atikur",
+//    age : 23,
+//    city:"Dhaka",
+//    country:"Bangladesh"
+
+//  }
+//  for (let i  in myName){
+//    document.write(`${[]} <br/>`);
+//  }
+
 
 const myArr = [23,45,56,90,43,55,55,9];
- const myName ={
-   name:"Atikur",
-   age : 23,
-   city:"Dhaka",
-   country:"Bangladesh"
 
- }
- for (let i  in myName){
-   document.write(`${i[0]} <br/>`);
- }
+const value = myArr.includes(55)
+document.write(value);
